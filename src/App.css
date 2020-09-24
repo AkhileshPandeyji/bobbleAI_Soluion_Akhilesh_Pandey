@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+.facebook-btn{
+  background-color: rgb(255, 255, 255);
+  display: inline-flex; 
+  align-items: center; 
+  color: rgba(0, 0, 0, 0.54); 
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 2px 0px, rgba(0, 0, 0, 0.24) 0px 0px 1px 0px; 
+  padding: 0px; 
+  border-radius: 2px; 
+  border: 1px solid transparent; 
+  font-size: 14px; 
+  font-weight: 500; 
+  font-family: Roboto, sans-serif;
+  width: 170px;
+  height: 40px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.register-form{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.register-input{
+  width:500px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.register-para{
+  margin-top: 10px;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.or-separator{
+  margin-top: 20px;
+  display: flex;
+}
+
+.register-btn{
+  width:500px;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);;
+}
+
+.form-container{
+  margin-top: 20px;
+  border:2px lightgray solid;
+  box-shadow: 2px 2px 20px 1px lightgray;
+  width:fit-content;
+  padding: 20px;
+  height:calc( 100vh - 120px)
+}
+
+.full-app{
+  text-align: center;
+  padding-left: 22%
+}
+.form-container-text{
+  margin-top: 30px;
+  font-family: Roboto, sans-serif;
+}
+.top-text{
+  color:gray;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+}
+.top-bar{
+  width:calc(100vw - 30%);
+  height:80px;
+  border:2px lightgray solid;
+  box-shadow: 2px 2px 20px 1px lightgray;
+}
+.top-bar{
+  display: flex;
+}
+.logo{
+  padding-left: 30%;
+}
+.top-bar-menu{
+width:fit-content
+}
+.openEye{
+  position: absolute;
+  z-index:1;
+  bottom:103px;
+  left:470px;
+}
+.closedEye{
+  position: absolute;
+  z-index:1;
+  bottom:103px;
+  left:470px;
 }
